@@ -10,10 +10,19 @@ However
 - If anyone has questions about the NS code itself (not about the program) you can ask - I will answer
 
 ---
+Coming soon:<br>
+![Screenshot](/ex5.goto/goto2.settings.1.png)
+![Screenshot](/ex3.multifunction/all.drive.hide.1.png)
+![Screenshot](/ex3.multifunction/all.security.antithreats.1.png)
+![Screenshot](/ex3.multifunction/all.security.permissions.1.png)
+
+---
 
 ## Group: Nilesoft Shell & Taskbar
 - [`Nilesoft Shell About Menu`](/ext.nilesoft/nss.about.md)<br>
-![Screenshot](/ext.nilesoft/nss.about.png)
+![Screenshot](/ext.nilesoft/nss.about.1.png)
+- [`Context Menu Mode`](/ext.nilesoft/nss.mode.md)<br>
+![Screenshot](/ext.nilesoft/nss.mode.1.png)
 - [`Theme Manager (Alpha version)`](/ext.nilesoft/theme-manager.nss)<br>
 more info about the current version on  [`Discord`](https://discord.com/channels/1106387012707168318/1139275510506082336)<br>
 a completed and improved version of Theme Manager is being developed
@@ -116,9 +125,10 @@ a completed and improved version of Theme Manager is being developed
 - [`Windows Compatibility Extension`](/ex3.multifunction/ext.compatibility.md)<br>
 ![Screenshot](/ex3.multifunction/ext.compatibility.1.png)
 
-- [`Select Menu`](/ex3.multifunction/sys.select.nss)<br>
-![Screenshot](/ex3.multifunction/sys.select.1.png)
-
+- [`Simple Selection Menu`](/ex3.multifunction/sys.select.simple.nss)<br>
+![Screenshot](/ex3.multifunction/sys.select.simple.1.png)
+- [`Advanced Selection Menu`](/ex3.multifunction/sys.select.mega.md)<br>
+![Screenshot](/ex3.multifunction/sys.select.mega.3.png)
 
 ## Group: Terminal
 - [`Terminal`](/ex4.terminal/all.terminal.md)<br>
