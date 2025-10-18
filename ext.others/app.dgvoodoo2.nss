@@ -30,6 +30,7 @@ menu(title='dgVoodoo2' image=if(dg_exists, '@dg_exe', \uE135)){
         // All x64 Wrappers use the x64 version of dgVoodooCpl
     item(title='DgVoodoo2 is missing, click to install' image=\uE130 where=!dg_exists admin cmd-ps=`$releaseInfo = Invoke-RestMethod -Uri "https://api.github.com/repos/dege-diosg/dgVoodoo2/releases/latest"; $DownloadURL = ($releaseInfo.assets | Where-Object { $_.name -like 'dgVoodoo2*.zip' -and $_.name -notlike 'dgVoodoo2*dbg.zip' }).browser_download_url; $TempZipPath = '@sys.temp\Dgvoodoo2.zip'; $ExtractPath = '@dg_path\\'; @dwnld_scr`)
     item(title='Update to latest release on Github' sep=before image=\uE22C where=dg_exists admin cmd-ps=`$releaseInfo = Invoke-RestMethod -Uri "https://api.github.com/repos/dege-diosg/dgVoodoo2/releases/latest"; $DownloadURL = ($releaseInfo.assets | Where-Object { $_.name -like 'dgVoodoo2*.zip' -and $_.name -notlike 'dgVoodoo2*dbg.zip' }).browser_download_url; $TempZipPath = '@sys.temp\Dgvoodoo2.zip'; $ExtractPath = '@sys.temp\Dgvoodoo2\\'; $DestPath = '@dg_path\\'; @dwnld_scr; Copy-Item "$ExtractPath*" $DestPath -Recurse -Force -Exclude 'dgVoodoo.conf'; Remove-Item -LiteralPath $ExtractPath -Recurse -Force`)}
+    
 /* Documentation:                        
 https://dege.freeweb.hu/dgVoodoo2/ReadmeGeneral/
 https://dege.freeweb.hu/dgVoodoo2/ReadmeGlide/
