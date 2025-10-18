@@ -1,20 +1,14 @@
 [`Nilesoft Shell`](https://nilesoft.org/) is an amazing program - it has become a hobby
-![Screenshot](/docs/VSCode-menu.png)<br>
-![Screenshot](/docs/VSCode-item.png)<br>
 
 The idea is to start uploading my nss files one by one, making a description and screenshot. The truth is that I prefer to create new menus with commands than to make descriptions, so it won't happen soon. (I don't think anyone wants to do this "paperwork" anyway)
 
-However
-- If anyone has an idea for a menu with commands, I am ready to participate in its creation
-- If anyone has a working cmd or ps code that needs to be adapted to NS commands, I will help
-- If anyone has questions about the NS code itself (not about the program) you can ask - I will answer
-
 ---
-Coming soon:<br>
-![Screenshot](/ex5.goto/goto2.settings.1.png)
-![Screenshot](/ex3.multifunction/all.drive.hide.1.png)
-![Screenshot](/ex3.multifunction/all.security.antithreats.1.png)
-![Screenshot](/ex3.multifunction/all.security.permissions.1.png)
+important: all snippets work with the latest canary version:<br>
+👉 [Download](https://nilesoft.org/download#canary)
+
+Have questions or ideas? Use the invitation link below to join the community Discord and chat about Shell!<br>
+👉 [Join via Discord invitation](https://discord.gg/Mg3tum2sd8)
+
 
 ---
 
@@ -23,9 +17,10 @@ Coming soon:<br>
 ![Screenshot](/ext.nilesoft/nss.about.1.png)
 - [`Context Menu Mode`](/ext.nilesoft/nss.mode.md)<br>
 ![Screenshot](/ext.nilesoft/nss.mode.1.png)
-- [`Theme Manager (Alpha version)`](/ext.nilesoft/theme-manager.nss)<br>
-more info about the current version on  [`Discord`](https://discord.com/channels/1106387012707168318/1139275510506082336)<br>
-a completed and improved version of Theme Manager is being developed
+- [`Shell Manager`](/ext.nilesoft/nss.manager.md)<br>
+![Screenshot](/ext.nilesoft/nss.manager.02.png)
+- [`Shell Disabler`](/ext.nilesoft/nss.disabler.md)<br>
+![Screenshot](/ext.nilesoft/nss.disabler.3.png)
 - [`Nilesoft Shell Windows Version Menu`](/ext.managers/nss.winver.md)<br>
 ![Screenshot](/ext.managers/nss.winver.png)
 
@@ -100,12 +95,19 @@ a completed and improved version of Theme Manager is being developed
 
 - [`Swap Drive Letter`](/ex3.multifunction/all.drive.swap.md)<br>
 ![Screenshot](/ex3.multifunction/all.drive.swap.1.png)
+- [`Hide Drive Letter`](/ex3.multifunction/all.drive.hide.md)<br>
+![Screenshot](/ex3.multifunction/all.drive.hide.1.png)
 - [`Manage Drive`](/ex3.multifunction/all.drive.manage.md)<br>
 ![Screenshot](/ex3.multifunction/all.drive.manage.1.png)
 - [`Manage "File" Drive`](/ex3.multifunction/all.drive.file.md)<br>
 ![Screenshot](/ex3.multifunction/all.drive.file.1.png)
 - [`Manage "Folder" Drive`](/ex3.multifunction/all.drive.folder.md)<br>
 ![Screenshot](/ex3.multifunction/all.drive.folder.1.png)
+
+- [`Antithreats Security`](/ex3.multifunction/all.security.antithreats.md)<br>
+![Screenshot](/ex3.multifunction/all.security.antithreats.1.png)
+- [`Security and Permissions`](/ex3.multifunction/all.security.permissions.md)<br>
+![Screenshot](/ex3.multifunction/all.security.permissions.1.png)
 
 - [`Environment Path Menu`](/ex3.multifunction/all.security.env.md)<br>
 ![Screenshot](/ex3.multifunction/all.security.env.1.png)
@@ -135,6 +137,9 @@ a completed and improved version of Theme Manager is being developed
 ![Screenshot](/ex4.terminal/all.terminal.png)
 
 ## Group: Navigation
+- [`Settings`](/ex5.goto/goto2.settings.md)<br>
+![Screenshot](/ex5.goto/goto2.settings.1.png)
+
 - [`Go To Menu`](/ex5.goto/goto.temp.md)<br>
 ![Screenshot](/ex5.goto/goto.temp.png)
 - [`Go To Menu`](/ex5.goto/goto.reg.md)<br>
